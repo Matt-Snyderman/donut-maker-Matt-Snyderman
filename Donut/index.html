@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Donut Clicker</title>
+  </head>
+
+  <div class="dropdown">
+    <button class="dropbtn">Fun Links to Follow</button>
+    <div class="dropdown-content">
+      <a href="./aboutgame.html">Game Inspiration</a>
+      <a href="./aboutme.html">About the Author</a>
+    
+    </div>
+  </div>
+  <!-- <a href="./aboutgame.html" id="info">About Game</a>
+  <a href="./aboutme.html" id="info">About me</a> -->
+  <h1>Make Some Donuts Suckers!</h1>
+  <body>
+   
+    <div class="container"></div>
+    <img src="donut.png" alt="" id="donut-image"><div id="donut-counter">Donuts: 0</div>
+    <button id="donut-button" class="button" onclick="addDonuts()">Make Donut</button>
+    <div id="auto-clicker">Auto Clicker: 0 </div>
+    <div id="auto-clicker-cost" >Auto Clicker Cost: 10</div>
+    <button id ="auto-clicker" class="button" onclick="addAutoClicker()" >Purchase auto clicker</button>
+    <button id="reset-button" class="button" onclick="location.reload()" >Reset the Game</button>
+
+    
+    <script src="./index.js"></script>
+  </body>
+</html>
